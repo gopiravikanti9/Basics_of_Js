@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spread operator</title>
+</head>
+<body>
+    <script>
+
+        let Hp = [10,23,45,67,78];//first js array
+        let Dell =[12,79,43,65,32 ];
+        let Mac = [80,64,36,25];
+
+        //let  Sony = Hp.concat(Dell);let sony got merge of hp and dell
+        
+        let Mi = [...Hp,42,...Dell,"Best Price"];
+        //used spread operator and added more elements
+
+        console.log(Mi);
+    </script>
+    
+</body>
+
+
+</html>
